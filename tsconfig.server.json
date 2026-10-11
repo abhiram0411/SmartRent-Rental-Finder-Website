@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "noEmit": false,
+    "allowImportingTsExtensions": false,
+    "outDir": "build-server",
+    "types": ["node"]
+  },
+  "include": ["server", "src/types.ts"],
+  "exclude": ["server/*.test.ts"]
+}

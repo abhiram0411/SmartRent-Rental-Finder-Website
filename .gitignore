@@ -1,0 +1,8 @@
+node_modules/
+dist/
+build-server/
+.env
+.env.*
+!.env.example
+.vercel/
+*.log
